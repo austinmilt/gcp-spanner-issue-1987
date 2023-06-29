@@ -1,0 +1,9 @@
+spring:
+    cloud:
+        gcp:
+            spanner:
+                project-id: demo
+                instance-id: demo-instance
+                database: demo-db
+                emulator.enabled: true
+                emulator-host: localhost:9010
